@@ -1,0 +1,83 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-15T02:58:53.240Z",
+        "line": 8,
+        "name": "Preencher formulario e fazer login",
+        "description": "",
+        "id": "preencher-formulario;preencher-formulario-e-fazer-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10989834400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu esteja no site \"http://advantageonlineshopping.com/#/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://advantageonlineshopping.com/#/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "com.keeggo.steps.RegistroSteps.que_eu_esteja_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20742550600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "acesso o formulario de abertura de conta e preencho o cadastro",
+            "match": {
+              "location": "com.keeggo.steps.RegistroSteps.acesso_o_formulario_de_abertura_de_conta_e_preencho_o_cadastro()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8948069800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "a conta sera gerada e o login validado",
+            "match": {
+              "location": "com.keeggo.steps.RegistroSteps.a_conta_sera_gerada_e_o_login_validado()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Executa"
+          },
+          {
+            "name": "@Executa1"
+          }
+        ]
+      }
+    ],
+    "name": "Preencher formulario",
+    "description": " Eu como usuario quero acessar o site para preencher o formulario e fazer o login",
+    "id": "preencher-formulario",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/online.feature",
+    "tags": [
+      {
+        "name": "@Executa",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
